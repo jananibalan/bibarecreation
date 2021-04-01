@@ -1,3 +1,7 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
 .dropdown-toggle:after {
   display: none !important;
 }
@@ -20,17 +24,78 @@
 
 @media only screen and (min-width: 701px) {
   #navBarSearchForm input[type="text"] {
-    width: 300px !important;
+    width: 400px !important;
   }
   #navBarSearchForm .input-group {
-    margin-right: 200px;
+    margin-right: 50px;
   }
+}
+.md-18 {
+  font-size: 20px;
+}
+.md-15 {
+  font-size: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  .header {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .hider {
+    display: none;
+  }
+}
+.hider {
+  color: black !important;
+}
+.hider:hover {
+  color: #b21f29 !important;
+}
+
+.my-left {
+  background-color: rgba(178, 31, 41, 0.3);
+  color: white;
+  border-radius: 50%;
+  border: 2px solid gray;
+  font-size: 50px;
+  outline: none;
+}
+.my-right {
+  background-color: rgba(178, 31, 41, 0.3);
+  color: white;
+  border-radius: 50%;
+  border: 2px solid gray;
+  font-size: 50px;
+  outline: none;
+  transform: rotate(180deg);
 }
 
 @media only screen and (max-width: 700px) {
   .myfont {
     font-family: "Oswald", sans-serif;
     font-size: 20px;
+  }
+  .my-right {
+    background-color: rgba(178, 31, 41, 0.3);
+    color: white;
+    border-radius: 50%;
+    border: 2px solid gray;
+    font-size: 20px;
+    outline: none;
+    transform: rotate(180deg);
+  }
+
+  .my-left {
+    background-color: rgba(178, 31, 41, 0.3);
+    color: white;
+    border-radius: 50%;
+    border: 2px solid gray;
+    font-size: 20px;
+    outline: none;
+  }
+  .brand {
+    width: 35% !important;
   }
 }
 @media only screen and (min-width: 701px) {

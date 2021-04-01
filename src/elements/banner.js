@@ -16,8 +16,8 @@ function Banner() {
       autoplay={true}
       items={1}
       navText={[
-        "<span class='material-icons md-36 mycolor myborder-left'>keyboard_arrow_left</span>",
-        "<span class='material-icons md-36 mycolor myborder-right'>keyboard_arrow_right</span>"
+        "<span class='material-icons my-left'>arrow_back_ios_new</span>",
+        "<span class='material-icons my-right'>arrow_back_ios_new</span>"
       ]}
     >
       <a href="https://www.biba.in/special-discount-upto-50p-off">

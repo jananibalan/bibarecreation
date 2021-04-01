@@ -9,11 +9,13 @@ import NewlyIntroduced from "./elements/newlyintroduced";
 import Spring from "./elements/springsummer";
 import Banner from "./elements/banner";
 import Navbar from "./elements/navbar";
+import Header from "./elements/header";
 import { design, season } from "./data/data";
 import "./styles.css";
 function Biba() {
   return (
     <div>
+      <Header />
       <Navbar />
       <Banner />
       <Spring />

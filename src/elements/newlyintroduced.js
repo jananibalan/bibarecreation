@@ -2,14 +2,14 @@ import React from "react";
 
 function NewlyIntroduced(props) {
   return (
-    <div class="mx-md-5 mx-lg-5 mx-2">
+    <div class="mx-md-5 mx-lg-5 mx-5">
       <div class="text-center">
         <h1 class="px-md-5 px-3 myfont">Newly Introduced</h1>
       </div>
       <div class="row my-3">
         <a
           href="https://www.biba.in/all/Jewellery/Masks/Chains"
-          class=" px-0 col-5 col-md-4 col-lg-4"
+          class=" px-0 col-6 col-md-4 col-lg-4"
         >
           <img
             src="https://storage.sg.content-cdn.io/in-resources/6c57599f-2c43-4c82-806a-e07c3410f5d3/Images/userimages/home-page-banners/1-2-2021/maskglass.jpg"
@@ -19,7 +19,7 @@ function NewlyIntroduced(props) {
         </a>
         <a
           href="https://www.biba.in/all-mix-and-match-bottom-athleisures22"
-          class="px-0 col-5 col-md-4 col-lg-4"
+          class="px-0 col-6 col-md-4 col-lg-4"
         >
           <img
             src="https://storage.sg.content-cdn.io/in-resources/6c57599f-2c43-4c82-806a-e07c3410f5d3/Images/userimages/home-page-banners/1-2-2021/athleisure.jpg"
