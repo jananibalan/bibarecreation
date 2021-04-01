@@ -1,0 +1,108 @@
+.dropdown-toggle:after {
+  display: none !important;
+}
+.navbar-mybutton:hover {
+  background-color: rgb(243, 76, 76) !important;
+}
+.owl-carousel .owl-nav {
+  display: none;
+  height: 0px;
+}
+.owl-carousel:hover .owl-nav {
+  display: block;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0;
+}
+
+@media only screen and (min-width: 701px) {
+  #navBarSearchForm input[type="text"] {
+    width: 300px !important;
+  }
+  #navBarSearchForm .input-group {
+    margin-right: 200px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .myfont {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 701px) {
+  .myfont {
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+.dressfont {
+  font-family: "open-sans", sans-serif;
+}
+
+.textfont {
+  font-family: "open sans", sans-serif;
+  color: #404040;
+}
+.footfont {
+  font-family: "open sans", sans-serif;
+}
+
+.owl-carousel .owl-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.owl-carousel .owl-prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.footer-content a,
+p {
+  text-decoration: none;
+  color: #a1a1a1;
+}
+.footer-content {
+  background-color: #333333;
+}
+.footer {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+.material-blue {
+  color: blue;
+}
+.footer-content .social-icons li {
+  display: inline-block;
+  margin: 0 2px;
+}
+.price {
+  color: red;
+}
+.originalprice {
+  color: gray;
+  text-decoration: line-through;
+}
+.discount {
+  font-weight: bold;
+}
+.carder:hover {
+  background-color: rgba(216, 216, 216, 0.2);
+}
+h4 {
+  display: flex;
+  flex-direction: row;
+}
+
+h4:before,
+h4:after {
+  content: " ";
+  flex: 1 1;
+  border-bottom: 1px solid rgba(219, 219, 219, 0.5);
+  margin: auto;
+}
